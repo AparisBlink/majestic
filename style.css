@@ -1873,3 +1873,249 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 		background: url(Portadilla_Take_Up_4.png) !important;
 	}
 /*--*/
+
+/*--*/
+/*----- BEST OF ENGLISH ---------- */ 
+/*---- Cambios para todas las coursetag de bestofenglish ---*/
+	.coursetag_bestofenglish1.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_bestofenglish2.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_bestofenglish3.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_bestofenglish4.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_bestofenglish5.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_bestofenglish6.content_type_clase_majesticdemo #actividad .content .header .title {
+	    display: flex;
+	}
+
+	.coursetag_bestofenglish1.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_bestofenglish2.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_bestofenglish3.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_bestofenglish4.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_bestofenglish5.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_bestofenglish6.content_type_clase_majesticdemo #actividad .content .header .title:before {
+		content: " ";
+	    background-position: center;
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    order: 2;
+	    position: relative;
+	    width: 352px;
+	    height: 60px;
+	    padding: 0;
+	}
+	.coursetag_bestofenglish1.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_bestofenglish2.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_bestofenglish3.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_bestofenglish4.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_bestofenglish5.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_bestofenglish6.content_type_clase_majesticdemo #actividad .content .header .title h3 {
+		margin-left: 0;
+    	text-align: left;
+    	margin-top: 10px;
+	}
+	@media (max-width: 750px) {
+		.coursetag_bestofenglish1.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_bestofenglish2.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_bestofenglish3.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_bestofenglish4.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_bestofenglish5.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_bestofenglish6.content_type_clase_majesticdemo #actividad .content .header .title {
+		    display: flex;
+		    flex-flow: column-reverse;
+		}
+		.coursetag_bestofenglish1.content_type_clase_majesticdemo #actividad .content .header .title:before,
+		.coursetag_bestofenglish2.content_type_clase_majesticdemo #actividad .content .header .title:before,
+		.coursetag_bestofenglish3.content_type_clase_majesticdemo #actividad .content .header .title:before,
+		.coursetag_bestofenglish4.content_type_clase_majesticdemo #actividad .content .header .title:before,
+		.coursetag_bestofenglish5.content_type_clase_majesticdemo #actividad .content .header .title:before,
+		.coursetag_bestofenglish6.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    	margin: 0 auto;
+	    	width: 300px;
+		}
+		.coursetag_bestofenglish1.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_bestofenglish2.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_bestofenglish3.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_bestofenglish4.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_bestofenglish5.content_type_clase_majesticdemo #actividad .content .header .title, 
+		.coursetag_bestofenglish6.content_type_clase_majesticdemo #actividad .content .header .title {
+	    	padding: 15px 28px;
+		}
+		.coursetag_bestofenglish1.content_type_clase_majesticdemo #actividad .content .header .title h3,
+		.coursetag_bestofenglish2.content_type_clase_majesticdemo #actividad .content .header .title h3,
+		.coursetag_bestofenglish3.content_type_clase_majesticdemo #actividad .content .header .title h3,
+		.coursetag_bestofenglish4.content_type_clase_majesticdemo #actividad .content .header .title h3,
+		.coursetag_bestofenglish5.content_type_clase_majesticdemo #actividad .content .header .title h3,
+		.coursetag_bestofenglish6.content_type_clase_majesticdemo #actividad .content .header .title h3 {
+			text-align: center;
+			border-top: 2px solid;
+   		 	padding-top: 10px;
+		}
+	}
+/*--*/
+
+/*---- coursetag_bestofenglish1 ------*/
+
+	/*Cambio de colores*/
+	:root .coursetag_bestofenglish1 {
+		--colorppal: #CDD8ED;
+	}
+	.coursetag_bestofenglish1 .shortanswer-container textarea:focus, 
+	.coursetag_bestofenglish1 .shortanswer-container input:focus, 
+	.coursetag_bestofenglish1 .shortanswer-container .preview:focus
+	.coursetag_bestofenglish1 .form-control:focus,
+	.coursetag_bestofenglish1 .form-control:focus-within {
+	    border-top-color: #CDD8EDa1;
+	    border-right-color: #CDD8EDa1;
+	    border-bottom-color: #CDD8EDa1;
+	    border-left-color: #CDD8EDa1;
+	}
+
+	/* Cambios en el logo*/
+	.coursetag_bestofenglish1.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/The_Best_of_English_1.png);
+	}
+
+	/*Cambios portadilla*/
+	.coursetag_bestofenglish1 #indice .unit-content .header {
+		background: url(imagenes/Portadilla_The_Best_of_English_1.png) !important;
+	}
+/*--*/
+
+/*---- coursetag_bestofenglish2 ------*/
+
+	/*Cambio de colores*/
+	:root .coursetag_bestofenglish2 {
+		--colorppal: #F2DEC4;
+	}
+	.coursetag_bestofenglish2 .shortanswer-container textarea:focus, 
+	.coursetag_bestofenglish2 .shortanswer-container input:focus, 
+	.coursetag_bestofenglish2 .shortanswer-container .preview:focus
+	.coursetag_bestofenglish2 .form-control:focus,
+	.coursetag_bestofenglish2 .form-control:focus-within {
+	    border-top-color: #F2DEC4a1;
+	    border-right-color: #F2DEC4a1;
+	    border-bottom-color: #F2DEC4a1;
+	    border-left-color: #F2DEC4a1;
+	}
+
+	/* Cambios en el logo*/
+	.coursetag_bestofenglish2.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/The_Best_of_English_2.png);
+	}
+
+	/*Cambios portadilla*/
+	.coursetag_bestofenglish2 #indice .unit-content .header {
+		background: url(imagenes/Portadilla_English_Aware_2.png) !important;
+	}
+/*--*/
+
+/*---- coursetag_bestofenglish3 ------*/
+
+	/*Cambio de colores*/
+	:root .coursetag_bestofenglish3 {
+		--colorppal: #E6D0D1;
+	}
+	.coursetag_bestofenglish3 .shortanswer-container textarea:focus, 
+	.coursetag_bestofenglish3 .shortanswer-container input:focus, 
+	.coursetag_bestofenglish3 .shortanswer-container .preview:focus
+	.coursetag_bestofenglish3 .form-control:focus,
+	.coursetag_bestofenglish3 .form-control:focus-within {
+	    border-top-color: #E6D0D1a1;
+	    border-right-color: #E6D0D1a1;
+	    border-bottom-color: #E6D0D1a1;
+	    border-left-color: #E6D0D1a1;
+	}
+
+	/* Cambios en el logo*/
+	.coursetag_bestofenglish3.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/The_Best_of_English_3.png);
+	}
+
+	/*Cambios portadilla*/
+	.coursetag_bestofenglish3 #indice .unit-content .header {
+		background: url(imagenes/Portadilla_English_Aware_3.png) !important;
+	}
+/*--*/
+
+/*---- coursetag_bestofenglish4 ------*/
+
+	/*Cambio de colores*/
+	:root .coursetag_bestofenglish4 {
+		--colorppal: #DDE6CE;
+	}
+	.coursetag_bestofenglish4 .shortanswer-container textarea:focus, 
+	.coursetag_bestofenglish4 .shortanswer-container input:focus, 
+	.coursetag_bestofenglish4 .shortanswer-container .preview:focus
+	.coursetag_bestofenglish4 .form-control:focus,
+	.coursetag_bestofenglish4 .form-control:focus-within {
+	    border-top-color: #DDE6CEa1;
+	    border-right-color: #DDE6CEa1;
+	    border-bottom-color: #DDE6CEa1;
+	    border-left-color: #DDE6CEa1;
+	}
+
+	/* Cambios en el logo*/
+	.coursetag_bestofenglish4.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/The_Best_of_English_4.png);
+	}
+
+	/*Cambios portadilla*/
+	.coursetag_bestofenglish4 #indice .unit-content .header {
+		background: url(imagenes/Portadilla_English_Aware_4.png) !important;
+	}
+/*--*/
+
+/*---- coursetag_bestofenglish5 ------*/
+
+	/*Cambio de colores*/
+	:root .coursetag_bestofenglish5 {
+		--colorppal: #C0C2DC;
+	}
+	.coursetag_bestofenglish5 .shortanswer-container textarea:focus, 
+	.coursetag_bestofenglish5 .shortanswer-container input:focus, 
+	.coursetag_bestofenglish5 .shortanswer-container .preview:focus
+	.coursetag_bestofenglish5 .form-control:focus,
+	.coursetag_bestofenglish5 .form-control:focus-within {
+	    border-top-color: #C0C2DCa1;
+	    border-right-color: #C0C2DCa1;
+	    border-bottom-color: #C0C2DCa1;
+	    border-left-color: #C0C2DCa1;
+	}
+
+	/* Cambios en el logo*/
+	.coursetag_bestofenglish5.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/The_Best_of_English_5.png);
+	}
+
+	/*Cambios portadilla*/
+	.coursetag_bestofenglish5 #indice .unit-content .header {
+		background: url(imagenes/Portadilla_English_Aware_5.png) !important;
+	}
+/*--*/
+
+/*---- coursetag_bestofenglish6 ------*/
+
+	/*Cambio de colores*/
+	:root .coursetag_bestofenglish6 {
+		--colorppal: #C0C2DC;
+	}
+	.coursetag_bestofenglish6 .shortanswer-container textarea:focus, 
+	.coursetag_bestofenglish6 .shortanswer-container input:focus, 
+	.coursetag_bestofenglish6 .shortanswer-container .preview:focus
+	.coursetag_bestofenglish6 .form-control:focus,
+	.coursetag_bestofenglish6 .form-control:focus-within {
+	    border-top-color: #C0C2DCa1;
+	    border-right-color: #C0C2DCa1;
+	    border-bottom-color: #C0C2DCa1;
+	    border-left-color: #C0C2DCa1;
+	}
+
+	/* Cambios en el logo*/
+	.coursetag_bestofenglish6.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/The_Best_of_English_6.png);
+	}
+
+	/*Cambios portadilla*/
+	.coursetag_bestofenglish6 #indice .unit-content .header {
+		background: url(imagenes/Portadilla_The_Best_of_English_6.png) !important;
+	}
+/*--*/
