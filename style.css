@@ -1991,7 +1991,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 		--colorppal: #F36E20;
 	}	
 	.coursetag_bestofenglish2.content_type_clase_majesticdemo #actividad .content .header .title{
-		background: #F36E20;
+		background: #F2DEC4;
 	}
 	.coursetag_bestofenglish2 .shortanswer-container textarea:focus, 
 	.coursetag_bestofenglish2 .shortanswer-container input:focus, 
@@ -2083,7 +2083,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	:root .coursetag_bestofenglish5 {
 		--colorppal: #0072BD;
 	}
-	.coursetag_bestofenglish4.content_type_clase_majesticdemo #actividad .content .header .title{
+	.coursetag_bestofenglish5.content_type_clase_majesticdemo #actividad .content .header .title{
 		background: #C0C2DC;
 	}
 	.coursetag_bestofenglish5 .shortanswer-container textarea:focus, 
@@ -2114,7 +2114,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	:root .coursetag_bestofenglish6 {
 		--colorppal: #565981;
 	}
-	.coursetag_bestofenglish4.content_type_clase_majesticdemo #actividad .content .header .title{
+	.coursetag_bestofenglish6.content_type_clase_majesticdemo #actividad .content .header .title{
 		background: #C0C2DC;
 	}
 	.coursetag_bestofenglish6 .shortanswer-container textarea:focus, 
