@@ -1911,6 +1911,10 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 		margin-left: 0;
     	text-align: left;
     	margin-top: 10px;
+    	-moz-text-shadow: 0px 1px 3px #000000b3;
+    	-webkit-text-shadow: 0px 1px 3px #000000b3;
+    	text-shadow: 0px 1px 3px #000000b3;
+    	align-self: center;
 	}
 	@media (max-width: 750px) {
 		.coursetag_bestofenglish1.content_type_clase_majesticdemo #actividad .content .header .title,
