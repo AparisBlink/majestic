@@ -946,6 +946,15 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	    margin-top: 8px;
 	}
 
+	.coursetag_plusfactor1 #indice .unit-content .header,
+	.coursetag_plusfactor2 #indice .unit-content .header,
+	.coursetag_plusfactor3 #indice .unit-content .header,
+	.coursetag_plusfactor4 #indice .unit-content .header,
+	.coursetag_plusfactor5 #indice .unit-content .header,
+	.coursetag_plusfactor6 #indice .unit-content .header {
+		background-color: var(--colorppal)
+	}
+
 /*---- coursetag_plusfactor1 ------*/
 	/*Cambio de colores*/
 	:root .coursetag_plusfactor1 {
@@ -966,6 +975,11 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	.coursetag_plusfactor1.content_type_clase_majesticdemo #actividad .content .header .title:before {
 	    content: " ";
 	    background-image: url(imagenes/Plus_Factor_1.png);
+	}
+
+	/*Cambios portadilla*/
+	.coursetag_plusfactor1 #indice .unit-content .header {
+		background: url(imagenes/Portadilla_Plus_Factor_1.png) !important;
 	}
 /*---*/
 
@@ -989,6 +1003,11 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	.coursetag_plusfactor2.content_type_clase_majesticdemo #actividad .content .header .title:before {
 	    background-image: url(imagenes/Plus_Factor_2.png);
 	}
+
+	/*Cambios portadilla*/
+	.coursetag_plusfactor2 #indice .unit-content .header {
+		background: url(imagenes/Portadilla_Plus_Factor_2.png) !important;
+	}
 /*--*/
 
 /*---- coursetag_plusfactor3 ------*/
@@ -1011,6 +1030,11 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	.coursetag_plusfactor3.content_type_clase_majesticdemo #actividad .content .header .title:before {
 	    background-image: url(imagenes/Plus_Factor_3.png);
 	}
+
+	/*Cambios portadilla*/
+	.coursetag_plusfactor3 #indice .unit-content .header {
+		background: url(imagenes/Portadilla_Plus_Factor_3.png) !important;
+	}	
 /*--*/
 
 /*---- coursetag_plusfactor4 ------*/
@@ -1033,6 +1057,11 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	.coursetag_plusfactor4.content_type_clase_majesticdemo #actividad .content .header .title:before {
 	    background-image: url(imagenes/Plus_Factor_4.png);
 	}
+
+	/*Cambios portadilla*/
+	.coursetag_plusfactor4 #indice .unit-content .header {
+		background: url(imagenes/Portadilla_Plus_Factor_4.png) !important;
+	}	
 /*--*/
 
 /*---- coursetag_plusfactor5 ------*/
@@ -1054,6 +1083,11 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	/* Cambios en el logo */
 	.coursetag_plusfactor5.content_type_clase_majesticdemo #actividad .content .header .title:before {
 	    background-image: url(imagenes/Plus_Factor_5.png);
+	}
+
+	/*Cambios portadilla*/
+	.coursetag_plusfactor5 #indice .unit-content .header {
+		background: url(imagenes/Portadilla_Plus_Factor_5.png) !important;
 	}
 /*--*/
 
@@ -1078,15 +1112,10 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	    background-image: url(imagenes/Plus_Factor_6.png);
 	}
 
-       /*portadillas*/
-       .coursetag_plusfactor1 #indice .unit-content .header,
-	.coursetag_plusfactor2 #indice .unit-content .header,
-	.coursetag_plusfactor3 #indice .unit-content .header,
-	.coursetag_plusfactor4 #indice .unit-content .header,
-	.coursetag_plusfactor5 #indice .unit-content .header,
+	/*Cambios portadilla*/
 	.coursetag_plusfactor6 #indice .unit-content .header {
-	    background: var(--colorppal) !important;
-		}
+		background: url(imagenes/Portadilla_Plus_Factor_6.png) !important;
+	}
 		
 /*--*/
 /*---- Cambios para todas las coursetag de English Aware ---*/
@@ -1186,6 +1215,11 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title:before {
 	    background-image: url(imagenes/Cenefas_EA_1_6_01.png);
 	}
+
+	/*Cambios portadilla*/
+	.coursetag_englishaware1 #indice .unit-content .header {
+		background: url(imagenes/Portadilla_English_Aware_1.png) !important;
+	}
 /*--*/
 
 /*---- coursetag_englishaware2 ------*/
@@ -1207,6 +1241,11 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	/* Cambios en el logo */
 	.coursetag_englishaware2.content_type_clase_majesticdemo #actividad .content .header .title:before {
 	    background-image: url(imagenes/Cenefas_EA_1_6_02.png);
+	}
+
+	/*Cambios portadilla*/
+	.coursetag_englishaware2 #indice .unit-content .header {
+		background: url(imagenes/Portadilla_English_Aware_2.png) !important;
 	}
 /*--*/
 
@@ -1230,6 +1269,11 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	.coursetag_englishaware3.content_type_clase_majesticdemo #actividad .content .header .title:before {
 	    background-image: url(imagenes/Cenefas_EA_1_6_1_03.png);
 	}
+
+	/*Cambios portadilla*/
+	.coursetag_englishaware3 #indice .unit-content .header {
+		background: url(imagenes/Portadilla_English_Aware_3.png) !important;
+	}	
 /*--*/
 
 /*---- coursetag_englishaware4 ------*/
@@ -1251,6 +1295,11 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	/* Cambios en el logo */
 	.coursetag_englishaware4.content_type_clase_majesticdemo #actividad .content .header .title:before {
 	    background-image: url(imagenes/Cenefas_EA_1_6_1_04.png);
+	}
+
+	/*Cambios portadilla*/
+	.coursetag_englishaware4 #indice .unit-content .header {
+		background: url(imagenes/Portadilla_English_Aware_4.png) !important;
 	}
 /*--*/
 
@@ -1274,41 +1323,48 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	.coursetag_englishaware5.content_type_clase_majesticdemo #actividad .content .header .title:before {
 	    background-image: url(imagenes/Cenefas_EA_1_6_1_05.png);
 	}
+
+	/*Cambios portadilla*/
+	.coursetag_englishaware5 #indice .unit-content .header {
+		background: url(imagenes/Portadilla_English_Aware_5.png) !important;
+	}
 /*--*/
 
 /*---- coursetag_englishaware6 ------*/
 	/*Cambio de colores*/
 	:root .coursetag_englishaware6 {
-		--colorppal: #E50069;
+		--colorppal: #ED0372;
 	}
 	.coursetag_englishaware6 .shortanswer-container textarea:focus, 
 	.coursetag_englishaware6 .shortanswer-container input:focus, 
 	.coursetag_englishaware6 .shortanswer-container .preview:focus
 	.coursetag_englishaware6 .form-control:focus,
 	.coursetag_englishaware6 .form-control:focus-within {
-	    border-top-color: #E50069a1;
-	    border-right-color: #E50069a1;
-	    border-bottom-color: #E50069a1;
-	    border-left-color: #E50069a1;
+	    border-top-color: #ED0372a1;
+	    border-right-color: #ED0372a1;
+	    border-bottom-color: #ED0372a1;
+	    border-left-color: #ED0372a1;
 	}
 
 	/* Cambios en el logo */
 	.coursetag_englishaware6.content_type_clase_majesticdemo #actividad .content .header .title:before {
 	    background-image: url(imagenes/Cenefas_EA_1_6_1_06.png);
 	}
+
+	/*Cambios portadilla*/
+	.coursetag_englishaware6 #indice .unit-content .header {
+		background: url(imagenes/Portadilla_English_Aware_6.png) !important;
+	}
    
 	/* Color de la portadilla*/
-
-       	.coursetag_englishaware1 #indice .unit-content .header,
+    .coursetag_englishaware1 #indice .unit-content .header,
 	.coursetag_englishaware2 #indice .unit-content .header,
 	.coursetag_englishaware3 #indice .unit-content .header,
 	.coursetag_englishaware4 #indice .unit-content .header,
 	.coursetag_englishaware5 #indice .unit-content .header,
 	.coursetag_englishaware6 #indice .unit-content .header {
-	    background: var(--colorppal) !important;
+	    background-color: var(--colorppal) !important;
 	}
-
-
 
 /*--*/
 
@@ -1428,6 +1484,11 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title:before {
 	    background-image: url(imagenes/Fisica_1.png);
 	}
+
+	/*Cambios portadilla*/
+	.coursetag_fisica1 #indice .unit-content .header {
+		background: url(imagenes/Portadilla_Fisica_1.png) !important;
+	}
 /*--*/
 
 /*-- coursetag_quimica2 --*/
@@ -1450,6 +1511,11 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	.coursetag_quimica2.content_type_clase_majesticdemo #actividad .content .header .title:before {
 	    background-image: url(imagenes/Quimica_2.png);
 	}
+
+	/*Cambios portadilla*/
+	.coursetag_quimica2 #indice .unit-content .header {
+		background: url(imagenes/Portadilla_Quimica_2.png) !important;
+	}
 /*--*/
 
 /*-- coursetag_ecologia --*/
@@ -1471,6 +1537,11 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	/* Cambios en el logo */
 	.coursetag_ecologia.content_type_clase_majesticdemo #actividad .content .header .title:before {
 	    background-image: url(imagenes/Ecologia.png);
+	}
+
+	/*Cambios portadilla*/
+	.coursetag_ecologia #indice .unit-content .header {
+		background: url(imagenes/Portadilla_Ecologia.png) !important;
 	}
 /*--*/
 
@@ -1498,6 +1569,11 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 		.coursetag_geotrigo.content_type_clase_majesticdemo #actividad .content .header .title:before {
 			width: 250px;	
 		}
+	}
+
+	/*Cambios portadilla*/
+	.coursetag_geotrigo #indice .unit-content .header {
+		background: url(imagenes/Portadilla_Geometria_y_Trigonometria.png) !important;
 	}
 /*--*/
 
@@ -1527,6 +1603,11 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 			width: 250px;	
 		}
 	}
+
+	/*Cambios portadilla*/
+	.coursetag_lecturaoralyescrita2 #indice .unit-content .header {
+		background: url(imagenes/Portadilla_LEOYE2.png) !important;
+	}
 /*--*/
 
 /*-- coursetag_calculodif --*/
@@ -1546,11 +1627,20 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	}
 
 	/* Cambios en el logo */
-	/*¡¡¡ COMENTO LA CLASE PORQUE FALTA EL LOGO !!!*/
-	/*.coursetag_calculodif.content_type_clase_majesticdemo #actividad .content .header .title:before {
-	    background-image: url(imagenes/Lectura_Expresion_Oral_y_Escrita_2.png);
+	.coursetag_calculodif.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Calculo_Diferencial.png);
+	    width: 500px;
 	}
-	*/
+		@media (max-width: 750px) {
+		.coursetag_calculodif.content_type_clase_majesticdemo #actividad .content .header .title:before {
+			width: 250px;	
+		}
+	}
+
+	/*Cambios portadilla*/
+	.coursetag_calculodif #indice .unit-content .header {
+		background: url(imagenes/Portadilla_Calculo_Diferencial.png) !important;
+	}
 /*--*/
 
 /*-- coursetag_horizontes1 --*/
@@ -1573,27 +1663,40 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	.coursetag_horizontes1.content_type_clase_majesticdemo #actividad .content .header .title:before {
 	    background-image: url(imagenes/Horizontes_1.png);
 	}
+
+	/*¡¡¡¡¡¡¡¡¡ FALTA IMAGEN !!!!!!! */
+	
+	/*Cambios portadilla*/
+	/*.coursetag_horizontes1 #indice .unit-content .header {
+		background: url(imagenes/Portadilla_Calculo_Diferencial.png) !important;
+	}*/
+	/* ¡¡¡¡¡¡¡¡¡¡¡¡¡ FALTA IMAGEN !!!!!!!!!!!!!!*/
 /*--*/
 
 /*-- coursetag_horizontes2 --*/
 	/*Cambio de colores*/
 	:root .coursetag_horizontes2 {
-		--colorppal: #4A5574;
+		--colorppal: #D2719F;
 	}
 	.coursetag_horizontes2 .shortanswer-container textarea:focus, 
 	.coursetag_horizontes2 .shortanswer-container input:focus, 
 	.coursetag_horizontes2 .shortanswer-container .preview:focus
 	.coursetag_horizontes2 .form-control:focus,
 	.coursetag_horizontes2 .form-control:focus-within {
-	    border-top-color: #4A5574a1;
-	    border-right-color: #4A5574a1;
-	    border-bottom-color: #4A5574a1;
-	    border-left-color: #4A5574a1;
+	    border-top-color: #D2719Fa1;
+	    border-right-color: #D2719Fa1;
+	    border-bottom-color: #D2719Fa1;
+	    border-left-color: #D2719Fa1;
 	}
 
 	/* Cambios en el logo */
 	.coursetag_horizontes2.content_type_clase_majesticdemo #actividad .content .header .title:before {
 	    background-image: url(imagenes/Horizontes_2.png);
+	}
+
+	/*Cambios portadilla*/
+	.coursetag_horizontes2 #indice .unit-content .header {
+		background: url(imagenes/Portadilla_Horizontes_2.png) !important;
 	}
 /*--*/
 
@@ -1617,27 +1720,39 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	.coursetag_horizontes3.content_type_clase_majesticdemo #actividad .content .header .title:before {
 	    background-image: url(imagenes/Horizontes_3.png);
 	}
+
+	/* ¡¡¡¡¡¡¡¡¡¡¡¡¡ FALTA IMAGEN !!!!!!!!!!!!!!!!!!!!!*/
+	/*Cambios portadilla*/
+	/*.coursetag_horizontes3 #indice .unit-content .header {
+		background: url(imagenes/Portadilla_Horizontes_2.png) !important;
+	}*/
+	/* ¡¡¡¡¡¡¡¡¡¡¡¡ FALTA IMAGEN !!!!!!!!!!!!!!!!!!!!!!*/
 /*--*/
 
 /*-- coursetag_horizontes4 --*/
 	/*Cambio de colores*/
 	:root .coursetag_horizontes4 {
-		--colorppal: #72B3E3;
+		--colorppal: #877AB3;
 	}
 	.coursetag_horizontes4 .shortanswer-container textarea:focus, 
 	.coursetag_horizontes4 .shortanswer-container input:focus, 
 	.coursetag_horizontes4 .shortanswer-container .preview:focus
 	.coursetag_horizontes4 .form-control:focus,
 	.coursetag_horizontes4 .form-control:focus-within {
-	    border-top-color: #72B3E3a1;
-	    border-right-color: #72B3E3a1;
-	    border-bottom-color: #72B3E3a1;
-	    border-left-color: #72B3E3a1;
+	    border-top-color: #877AB3a1;
+	    border-right-color: #877AB3a1;
+	    border-bottom-color: #877AB3a1;
+	    border-left-color: #877AB3a1;
 	}
 
 	/* Cambios en el logo */
 	.coursetag_horizontes4.content_type_clase_majesticdemo #actividad .content .header .title:before {
 	    background-image: url(imagenes/Horizontes_4.png);
+	}
+
+	/*Cambios portadilla*/
+	.coursetag_horizontes4 #indice .unit-content .header {
+		background: url(imagenes/Portadilla_Horizontes_4.png) !important;
 	}
 
 /* Color de la portadilla*/
@@ -1652,8 +1767,109 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	.coursetag_horizontes2 #indice .unit-content .header,
 	.coursetag_horizontes3 #indice .unit-content .header,
 	.coursetag_horizontes4 #indice .unit-content .header {
-		background: var(--colorppal) !important;
+		background-color: var(--colorppal) !important;
 		}
 		
 /*--*/
 
+/* --- Coursetag TAKE UP  ---*/
+/*---- Cambios para todas las coursetag de TAKE UP ENGLIH ---*/
+	.coursetag_takeup2.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_takeup4.content_type_clase_majesticdemo #actividad .content .header .title {
+	    display: flex;
+	}
+	
+	.coursetag_takeup2.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_takeup4.content_type_clase_majesticdemo #actividad .content .header .title:before {
+		content: " ";
+	    background-position: center;
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    order: 2;
+	    position: relative;
+	    width: 352px;
+	    height: 60px;
+	    padding: 0;
+	}
+
+	.coursetag_takeup2.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_takeup4.content_type_clase_majesticdemo #actividad .content .header .title h3 {
+		margin-left: 0;
+    	text-align: left;
+    	margin-top: 10px;
+	}
+	@media (max-width: 750px) {
+		.coursetag_takeup2.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_takeup4.content_type_clase_majesticdemo #actividad .content .header .title {
+		    display: flex;
+		    flex-flow: column-reverse;
+		    padding: 15px 28px;
+		}
+
+		.coursetag_takeup2.content_type_clase_majesticdemo #actividad .content .header .title:before,
+		.coursetag_takeup4.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    	    margin: -10px auto;
+    			width: 200px;
+		}
+
+		.coursetag_takeup2.content_type_clase_majesticdemo #actividad .content .header .title h3,
+		.coursetag_takeup4.content_type_clase_majesticdemo #actividad .content .header .title h3 {
+		    text-align: center;
+		    border-top: 2px solid;
+		    padding-top: 4px;
+		    margin-top: 8px;
+		}
+	}
+/*-- coursetag_takeup2 --*/
+	/*Cambio de colores*/
+	:root .coursetag_takeup2 {
+		--colorppal: #7365A6;
+	}
+	.coursetag_takeup2 .shortanswer-container textarea:focus, 
+	.coursetag_takeup2 .shortanswer-container input:focus, 
+	.coursetag_takeup2 .shortanswer-container .preview:focus
+	.coursetag_takeup2 .form-control:focus,
+	.coursetag_takeup2 .form-control:focus-within {
+	    border-top-color: #7365A6a1;
+	    border-right-color: #7365A6a1;
+	    border-bottom-color: #7365A6a1;
+	    border-left-color: #7365A6a1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_takeup2.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Take_Up_2.png);
+	}
+
+	/*Cambios portadilla*/
+	.coursetag_takeup2 #indice .unit-content .header {
+		background: url(imagenes/Portadilla_Take_Up_2-A.jpg) !important;
+	}
+/*--*/
+
+/*-- coursetag_takeup4 --*/
+	/*Cambio de colores*/
+	:root .coursetag_takeup4 {
+		--colorppal: #53628B;
+	}
+	.coursetag_takeup4 .shortanswer-container textarea:focus, 
+	.coursetag_takeup4 .shortanswer-container input:focus, 
+	.coursetag_takeup4 .shortanswer-container .preview:focus
+	.coursetag_takeup4 .form-control:focus,
+	.coursetag_takeup4 .form-control:focus-within {
+	    border-top-color: #53628Ba1;
+	    border-right-color: #53628Ba1;
+	    border-bottom-color: #53628Ba1;
+	    border-left-color: #53628Ba1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_takeup4.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Take_Up_4.png);
+	}
+
+	/*Cambios portadilla*/
+	.coursetag_takeup4 #indice .unit-content .header {
+		background: url(Portadilla_Take_Up_4.png) !important;
+	}
+/*--*/
