@@ -1,0 +1,1659 @@
+/* Fonts */
+
+/* Lista de colores*/
+
+:root {
+	--colorppal: #923538;
+}
+
+/* General */
+
+#indice .units ul li {
+    background: var(--colorppal);
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 0;
+    margin-bottom: 8px;
+    padding: 4px 8px;
+
+}
+
+#indice .units ul li a .title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    margin: -21px 0 0 35px;
+    line-height: 18px;
+    display: block;
+}
+
+body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, 
+body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
+    color: var(--colorppal);
+}
+
+#indice .units ul li.active:not(.disabled), 
+body:not(.isTablet) #indice .units ul li:hover:not(.disabled), 
+#indice .units ul li:focus:not(.disabled) {
+    background: transparent;
+    border: 2px solid var(--colorppal);
+}
+
+a:hover, a:active, a:focus {
+    outline: 0;
+    color: var(--colorppal);
+    text-decoration: none;
+}
+
+.btn-primary, .btn-primary.disabled {
+	color: #fff;
+    background-color: var(--colorppal);
+    border-color: transparent;
+    opacity: 1;
+    border-radius: 0;
+}
+
+	body.content_type_clase_majesticdemo {
+		font-size: 1.8rem;
+	}
+
+	body.content_type_clase_majesticdemo #actividad .content img {
+		padding: 5px;
+	}
+
+
+	.is_app.content_type_clase_majesticdemo {
+		padding-top: 0px;
+	}
+
+	.content_type_clase_majesticdemo #actividad {
+		margin-bottom: 0px;
+		-webkit-transform: none;
+		-webkit-transform-style: flat;
+	}
+
+	#actividad .carousel-inner .item-container {
+		background-image: none;
+		margin: 20px auto 20px;
+		padding: 0px;
+		padding-bottom: 90px;
+		position: relative;
+	}
+
+	.content_type_clase_majesticdemo #actividad .slide-concatenate {
+		margin-top: 30px;
+	}
+
+	.content_type_clase_majesticdemo #actividad .content .header .title img,
+	.content_type_clase_majesticdemo #actividad .content .header .chapter {
+		display: none;
+	}
+
+	#indice .units ul li a .number,
+	#indice .unit-content .header .number
+	 {
+		visibility: hidden;
+	}
+
+	.content_type_clase_majesticdemo #actividad .content .header {
+		border: none;
+		margin-bottom: 0;
+	}
+
+	.content_type_clase_majesticdemo #actividad .content .header .title {
+		margin: 0px 0 20px;
+		background: var(--colorppal);
+		padding: 20px 97px;
+	}
+
+	.content_type_clase_majesticdemo #actividad .content .slide-concatenate .header .title {
+		display: none;
+	}
+
+	.content_type_clase_majesticdemo #actividad .content .header .title h3 {
+	position: relative;
+    display: block;
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+    padding-bottom: 3px;
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-align: left;
+	}
+
+	.content_type_clase_majesticdemo #actividad .content .header .title h3 span {
+		float: left;
+		font-size: 1.8rem;
+		font-weight: 900;
+		line-height: 1.1rem;
+	}
+
+	.content_type_clase_majesticdemo #actividad .slide_content_type_1 .pregunta .texto_curso,
+	.content_type_clase_majesticdemo #actividad .texto_curso,
+	.html-book {
+		font-size: 1.8rem;
+	}
+
+	.texto_curso p:last-of-type {
+		margin-bottom: 15px;
+	}
+
+	.content_type_clase_majesticdemo #actividad .texto_curso li,
+	.content_type_clase_majesticdemo #actividad .workspace ul li li {
+		margin-bottom: 10px;
+	}
+
+	#actividad .class_slide {
+    	padding: 40px 0 0;
+    	padding-top: 0;
+	}
+
+	#actividad .class_slide:last-of-type {
+	    padding-bottom: 0px;
+	}
+
+	#actividad .slide-concatenate .class_slide {
+	    padding-bottom: 20px;
+	}
+
+	#actividad .slide-concatenate:last-of-type .class_slide {
+	    padding-bottom: 100px;
+	}
+
+	.content_type_clase_majesticdemo .slide_main {
+		padding: 0 97px;
+	}
+
+	@media screen and (max-width: 480px) {
+		.content_type_clase_majesticdemo .slide_main {
+			padding: 0 35px;
+		}
+	}
+
+	.content_type_clase_majesticdemo .slide_main input,
+	.content_type_clase_majesticdemo .slide_main .img-input-container {
+		color: #555;
+		background-color: #fff;
+		background-image: none;
+		border: 1px solid #ccc;
+		-webkit-border-radius: 4px;
+		   -moz-border-radius: 4px;
+		        border-radius: 4px;
+		-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+		-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+		     box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+		-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+		-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+		transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+		-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+		-moz-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -moz-box-shadow ease-in-out .15s;
+		transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+		transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s, -moz-box-shadow ease-in-out .15s;
+	}
+
+	.content_type_clase_majesticdemo .slide_main input:focus,
+	.content_type_clase_majesticdemo .slide_main .img-input-container:focus {
+		border-top-color: #3AC62A;
+		border-right-color: #3AC62A;
+		border-bottom-color: #3AC62A;
+		border-left-color: #3AC62A;
+		outline-width: 0px;
+		outline-style: none;
+		-webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0.6);
+		   -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0.6);
+		        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0.6);
+	}
+
+	.content_type_clase_majesticdemo .slide_main input[disabled],
+	.content_type_clase_majesticdemo .slide_main input[readonly],
+	fieldset[disabled] .content_type_clase_majesticdemo .slide_main input,
+	.content_type_clase_majesticdemo .slide_main .img-input-container {
+		cursor: not-allowed;
+		background-color: #eee;
+		opacity: 1;
+	}
+
+	.content_type_clase_majesticdemo .slide_main .img-input-container input[readonly],
+	.content_type_clase_majesticdemo .slide_main .img-input-container input[disabled] {
+		opacity: 0;
+		filter: alpha(opacity=0);
+	}
+
+	.content_type_clase_majesticdemo .slide_main input.respuesta_ok,
+	.content_type_clase_majesticdemo .slide_main .img-input-container.respuesta_ok {
+		border-color: #57e900;
+		background: #D1F3BD;
+	}
+
+	.content_type_clase_majesticdemo .slide_main input.respuesta_ko,
+	.content_type_clase_majesticdemo .slide_main .img-input-container.respuesta_ko {
+		border-color: #FF3626;
+		background: #FFA49D;
+	}
+
+	.content_type_clase_majesticdemo .slide_main input.solucion,
+	.content_type_clase_majesticdemo .slide_main .img-input-container.solucion {
+		border-color: #00BDFF;
+		background: #B6ECFF;
+	}
+
+	.zoom_flag_img {
+		top: 15px;
+		right: 15px;
+	}
+/**/
+
+/* Navbar */
+	.navbar-bottom {
+		background: #dbc9c9;
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+
+	.logo-publisher {
+	display: inline-block;
+    position: absolute;
+    top: 4px;
+    left: 40px;
+    width: 300px;
+    height: 37px;
+    background: url(imagenes/Logo_Magestic_Digital.png) 0 0 no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: left;
+	}
+
+	@media only screen and (max-width: 640px) {
+		.navbar-bottom {
+			padding-left: 40px;
+			padding-right: 40px;
+		}
+
+		.logo-publisher {
+			width: 40px;
+			background-image: url(Pearson-logo-2016-219x286.png);
+		}
+	}
+
+	.slider-indicators {
+	    padding-left: 0px;
+	    padding-right: 0px;
+	    white-space: nowrap;
+	}
+	.edit .slider-indicators {
+		white-space: normal;
+	}
+	.slider-indicators li,
+	.edit .slider-indicators li {
+		background-color: #ffffff;
+	    color: #005840;
+	}
+
+	.slider-indicators .active,
+	.edit .slider-indicators .active,
+	.slider-indicators li:hover,
+	.edit .slider-indicators .concat.active,
+	.slider-indicators .active {
+	    background-color: #007FA3;
+	    color: #ffffff;
+	}
+
+	.edit .slider-indicators .concat.active:before {
+ 		background-color: #007FA3;
+	}
+
+	#bottom-navigator {
+		overflow: hidden;
+		position: relative;
+	}
+	#bottom-navigator .slider-indicators {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#bottom-navigator .slider-indicators:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+	#bottom-navigator li {
+		width: 18px;
+		height: 18px;
+		margin: 2px 5px;
+		background: #fff;
+		color: transparent;
+		line-height: 2.2rem;
+		font-size: 1.8rem;
+		font-weight: bold;
+		text-indent: initial;
+	}
+	#bottom-navigator li:hover {
+		background: #923538;
+		color: transparent;
+	}
+	#bottom-navigator li.active {
+		background: #923538;
+		color: transparent;
+	}
+	#bottom-navigator.show_left:before {
+		content: '\F053';
+		font-family: 'FontAwesome';
+		position: absolute;
+		left: 0;
+		z-index: 100;
+		color: #ffffff;
+		top: 10px;
+		height: 35px;
+		line-height: 5.4rem;
+		width: 20px;
+		text-align: left;
+		background: -webkit-gradient(linear, left top, right top, from(#132E4C), to(transparent));
+		background: -webkit-linear-gradient(left, #132E4C, transparent);
+		background: -moz-linear-gradient(left, #132E4C, transparent);
+		background: -o-linear-gradient(left, #132E4C, transparent);
+		background: linear-gradient(to right, #132E4C, transparent);
+	}
+
+	#bottom-navigator.show_right:after {
+		content: '\F054';
+		font-family: 'FontAwesome';
+		position: absolute;
+		right: 0;
+		color: #ffffff;
+		top: 10px;
+		height: 35px;
+		line-height: 5.4rem;
+		width: 20px;
+		text-align: right;
+		background: -webkit-gradient(linear, right top, left top, from(#132E4C), to(transparent));
+		background: -webkit-linear-gradient(right, #132E4C, transparent);
+		background: -moz-linear-gradient(right, #132E4C, transparent);
+		background: -o-linear-gradient(right, #132E4C, transparent);
+		background: linear-gradient(to left, #132E4C, transparent);
+	}
+
+
+/**/
+
+
+/*BOTONERA ACTIVIDADES*/
+
+.btn-danger, .btn-danger[disabled] {
+    color: #fff;
+    background-color: var(--colorppal);
+    border-color: transparent;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.btn-primary[disabled], .btn-primary[disabled]:focus {
+    color: #fff;
+    background-color: #0051a0;
+    border-color: transparent;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.btn-primary {
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.btn-primary:not([disabled]):hover, 
+.btn-primary:not([disabled]):focus, 
+.btn-primary:not([disabled]):active, 
+.btn-primary.active, 
+.open .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #be8889;
+    opacity: 1;
+    border-color: transparent;
+}
+
+.btn-danger:hover, 
+.btn-danger:focus, 
+.btn-danger:active, 
+.btn-danger.active, 
+.open .dropdown-toggle.btn-danger {
+    color: #fff;
+    background-color: #be8889;
+    border-color: transparent;
+}
+
+.btn-solution, 
+.btn-solution.disabled, 
+.btn-solution[disabled], 
+.btn-next, 
+.btn-next.disabled, 
+.btn-next[disabled] {
+	color: #fff;
+    background-color: #0051a0;
+    border-color: transparent;
+    border-radius: 5px;
+}
+
+.btn-solution:hover, 
+.btn-solution:focus, 
+.btn-solution:active, 
+.btn-next:hover, 
+.btn-next:focus, 
+.btn-next:active, 
+.open .dropdown-toggle.btn-solution {
+    color: #fff;
+    background-color: #5e91c3;
+    border-color: transparent;
+}
+
+#actividad .content .review .attemps span {
+    width: 35px;
+    height: 35px;
+    font-weight: 700;
+    color: #fff;
+    background-color: var(--colorppal);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 6px 12px;
+    margin: 0 3px;
+    display: inline-block;
+    line-height: 24px;
+}
+
+/**/
+
+/*Textarea*/
+.shortanswer-container textarea:focus, 
+.shortanswer-container input:focus, 
+.shortanswer-container .preview:focus
+.form-control:focus, .form-control:focus-within {
+    border-top-color: #923538a1;
+    border-right-color: #923538a1;
+    border-bottom-color: #923538a1;
+    border-left-color: #923538a1;
+    border-width: 2px;
+    outline-width: 0;
+    outline-style: none;
+    -webkit-box-shadow: 0 1px 1px #dbc9c9 inset, 0 0 8px #dbc9c9;
+    -moz-box-shadow: 0 1px 1px #dbc9c9 inset,0 0 8px #dbc9c9;
+    box-shadow: 0 1px 1px #dbc9c9 inset, 0 0 8px #dbc9c9;
+}
+
+
+/*TITULO 1*/
+
+.bck-title1 {
+	padding: 4px 0px;
+	color: #333;
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/*TITULO 2*/
+
+.bck-title2 {
+    color: #333;	
+    padding: 4px 5px;
+    border-bottom: 2px solid #333;
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: fit-content;
+    -moz-width: fit-content;
+    -webkit-width: fit-content;
+    -o-width: fit-content;
+}
+
+/* Lists */
+
+.texto_curso ul li,
+.workspace ul li ul li,
+.cke_contents ul li {
+	padding-left: 16px;
+}
+
+.texto_curso ul li:before,
+.workspace ul li ul li:before,
+.cke_contents ul li:before {
+	width: 4px;
+	height: 4px;
+	background-color: #414141;
+}
+
+.content .bck-ol,
+.cke_contents .bck-ol,
+.content ol,
+.cke_contents ol {
+	list-style-type: none;
+	padding-left: 0;
+	counter-reset: bck-li-counter;
+}
+
+.content .bck-ol li,
+.cke_contents .bck-ol li,
+.content ol li,
+.cke_contents ol li {
+	list-style-type: none;
+	padding-left: 28px;
+	margin-bottom: 16px;
+	counter-increment: bck-li-counter;
+	position: relative;
+	line-height: 1.1rem;
+}
+
+.content .bck-ol1 li:before,
+.cke_contents .bck-ol1 li:before,
+.content ol li:before,
+.cke_contents ol li:before {
+    content: counter(bck-li-counter)".";
+    position: absolute;
+    top: -1px;
+    left: -3px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: transparent;
+    color: #333;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+/*LISTA ORDENADA 2*/
+
+.content .bck-ol2 li:before,
+.cke_contents .bck-ol2 li:before {
+    content: counter(bck-li-counter, upper-roman) ".";
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    background: #fff;
+    color: #000;
+    width: 30px;
+}
+
+/*LISTA ORDENADA 3*/
+
+.content .bck-ol3 li:before,
+.cke_contents .bck-ol3 li:before {
+	content: counter(bck-li-counter, lower-alpha)".";
+	-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+    color: #000;
+    font-size: 2rem;
+}
+
+/*LISTA ORDENADA 4*/
+
+.content .bck-ol4 li:before,
+.cke_contents .bck-ol4 li:before {
+	content: counter(bck-li-counter, lower-alpha);
+	top: 0;
+	left: -5px;
+	width: 28px;
+	height: 20px;
+	-webkit-box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
+       -moz-box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
+    		box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
+    border: none;
+    -webkit-border-radius: 0;
+       -moz-border-radius: 0;
+            border-radius: 0;
+    background: #C9DE79;
+    color: #000;
+    line-height: 2rem;
+}
+
+/*LISTA DESORDENADA POR DEFECTO*/
+
+.texto_curso ul li:before, .workspace ul li ul li:before, .cke_contents ul li:before {
+    width: 6px;
+    height: 6px;
+    background-color: #414141;
+}
+
+/*CAJAS*/
+
+.bck-box {
+	margin: 10px;
+	border: 2px solid #0051A0;
+	-webkit-border-radius: 10px;
+	   -moz-border-radius: 10px;
+	        border-radius: 10px;
+	background: #fff;
+	padding: 15px;
+}
+
+.bck-box .bck-content p:last-child {
+	margin-bottom: 0;
+}
+
+/* Caja 2 */
+.bck-box.bck-box2 {
+	-webkit-box-shadow: 0 3px 0 #BCBDC0;
+	   -moz-box-shadow: 0 3px 0 #BCBDC0;
+	        box-shadow: 0 3px 0 #BCBDC0;
+	-webkit-border-radius: 50%;
+	   -moz-border-radius: 50%;
+	        border-radius: 50%;
+	padding: 6px 15px;
+	text-align: center;
+}
+
+/* Caja 3 */
+.bck-box.bck-box3 {
+	position: relative;
+	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,.5);
+	   -moz-box-shadow: 1px 1px 1px rgba(0,0,0,.5);
+	        box-shadow: 1px 1px 1px rgba(0,0,0,.5);
+	-webkit-transform: rotate(2deg);
+	   -moz-transform: rotate(2deg);
+	    -ms-transform: rotate(2deg);
+	     -o-transform: rotate(2deg);
+	        transform: rotate(2deg);
+}
+
+.bck-box.bck-box3 .bck-title {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	   -moz-transform: translate(-50%,-50%);
+	    -ms-transform: translate(-50%,-50%);
+	     -o-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
+	display: inline-block;
+	border: 1px solid #10a0c6;
+	-webkit-border-radius: 10px;
+	   -moz-border-radius: 10px;
+	        border-radius: 10px;
+	background: #fff;
+	padding: 0 6px;
+}
+
+.bck-box.bck-box3 .bck-title p {
+	display: inline;
+}
+
+.bck-box.bck-box3 .bck-content {
+	margin-top: 15px;
+}
+
+/*TABLA POR DEFECTO*/
+
+.content table:not(.rf-tablegrid) td,
+.content table:not(.rf-tablegrid) th {
+    border: 3px solid #fff;
+    padding: 10px;
+    background: transparent;
+}
+
+.content table:not(.rf-tablegrid) {
+    border: 1px solid transparent;
+    margin-bottom: 20px;
+}
+
+/* Icons */
+
+#actividad .player.audio, 
+#actividad .player.video, 
+#help-panel-content .player, 
+#remote-alert-modal-rich .player {
+    height: 28px !important;
+    width: 28px;
+    display: inline-block;
+    background-color: #333;
+    background-image: url(../../../images/shared/multimedia-icons.png);
+    background-repeat: no-repeat;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    margin: 0 5px;
+    vertical-align: sub;
+}
+
+
+.item-container .icon:before {
+	content: "";
+	background-repeat: no-repeat;
+	-webkit-background-size: auto 100%;
+	   -moz-background-size: auto 100%;
+	     -o-background-size: auto 100%;
+	        background-size: auto 100%;
+	background-position: center center;
+	display: inline-block;
+	vertical-align: middle;
+	height: 40px;
+	width: 54px;
+	margin-top: -16px;
+}
+
+.item-container .icon-draw:before {
+	background-image: url(images/Icon_draw.png);
+}
+
+.item-container .icon-write:before {
+	background-image: url(images/Icon_write.png);
+}
+
+.item-container .icon-speaking:before {
+	background-image: url(images/Icon_speaking.png);
+}
+
+.item-container .icon-reading:before {
+	background-image: url(images/Icon_reading.png);
+}
+
+.item-container .icon-star:before {
+	background-image: url(images/Icon_star.png);
+}
+
+/* Forms */
+
+.content_type_clase_majesticdemo .slide_main input,
+.content_type_clase_majesticdemo .slide_main .img-input-container {
+    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0.075);
+       -moz-box-shadow: inset 0 0px 0px rgba(0,0,0,0.075);
+    		box-shadow: inset 0 0px 0px rgba(0,0,0,0.075);
+    border: 0px solid #ccc;
+    border-bottom: 2px solid var(--colorppal);
+    -webkit-border-radius: 0px;
+       -moz-border-radius: 0px;
+    		border-radius: 0px;
+}
+
+.content_type_clase_majesticdemo .slide_main .fill-text .img-input-container {
+    display: none;
+}
+
+.content_type_clase_majesticdemo .slide_main input:focus,
+.content_type_clase_majesticdemo .slide_main .img-input-container:focus {
+    border-top-color: #dbc9c9;
+    border-right-color: #dbc9c9;
+    border-bottom-color: #dbc9c9;
+    border-left-color: #dbc9c9;
+    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0);
+    -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0);
+}
+
+/* Slides */
+
+#actividad .workspace.multiple-choice .opcion,
+#actividad .workspace.matching .opciones .opcion:not(.ko):not(.ok),
+#actividad .workspace.ordenar .js-rank-item {
+    border-width: 2px;
+    border-color: var(--colorppal);
+    border-style: solid;
+    background: #fff;
+}
+
+#actividad .workspace.matching .opciones .opcion.emparejado.destino {
+    border-width: 2px 2px 2px 0;
+}
+
+#actividad .workspace.matching .opciones .opcion.emparejado.origen {
+    border-width: 2px 0 2px 2px;
+}
+
+#actividad .workspace.clasificar .clasificar_lista .classify-item {
+    border: 0px solid #d8d8d8;
+}
+
+#actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
+    border: 2px solid var(--colorppal);
+    padding-top: 10px;
+}
+
+.fillblanks-draggable-wrapper .response {
+    border: 0px solid #d8d8d8;
+    background: #f5e6e6;
+}
+
+.fillblanks-draggable-wrapper .response .bck-i-fullscreen-wrapper {
+    padding: 0;
+}
+
+body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable-wrapper
+.response .bck-i-fullscreen,
+body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
+.img-input-container.imgFilled img {
+	width: auto;
+	height: 100px !important;
+	padding: 0;
+}
+
+.slide.crosswords .enunciados .enunciado,
+.slide.crosswords-puzzle .enunciado {
+    padding: 0;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.slide.crosswords .enunciados .enunciado:before,
+.slide.crosswords-puzzle .enunciado:before {
+    content: counter(bck-li-counter)".";
+    position: absolute;
+    top: -3px;
+    left: -24px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: transparent;
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+#actividad .workspace.memory .front {
+    z-index: 2;
+    width: 120px;
+    height: 140px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #d8d8d8;
+    background: #fff url(imagenes/favicon.png) center center / 50px auto no-repeat;
+    transition: all .5s ease;
+}
+
+.rf-wordcontainer li .index {
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 579px) {
+	.body_clase #actividad .carousel-inner .item-container {
+	    margin-top: 0;
+	}
+}
+@media (max-width: 767px) {
+	.navbar-bottom {
+	    padding-left: 1em;
+	    padding-right: 1em;
+	    min-height: 43px;
+	}
+	.content_type_clase_majesticdemo #actividad .content .header .title {
+		padding: 20px 20px;
+	}
+}
+/*--------------------------------------------------------------------------*/
+/* -------------------- COURSETAGS ---------------------------------------- */
+/*--------------------------------------------------------------------------*/
+/*----- Cambios GENERICOS en los logos para todos los PLUS FACTOR. Luego en cada uno se especifica la imagen ----*/
+	.coursetag_plusfactor1.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_plusfactor2.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_plusfactor3.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_plusfactor4.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_plusfactor5.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_plusfactor6.content_type_clase_majesticdemo #actividad .content .header .title {
+	    display: flex;
+	    min-height: 90px;
+	}
+	.coursetag_plusfactor1.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_plusfactor2.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_plusfactor3.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_plusfactor4.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_plusfactor5.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_plusfactor6.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    content: " ";
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    order: 0;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    padding: 45px 70px;
+	}
+	.coursetag_plusfactor1.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_plusfactor2.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_plusfactor3.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_plusfactor4.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_plusfactor5.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_plusfactor6.content_type_clase_majesticdemo #actividad .content .header .title h3 {
+	    margin-left: 117px;
+	    text-align: center;
+	    margin-top: 8px;
+	}
+
+/*---- coursetag_plusfactor1 ------*/
+	/*Cambio de colores*/
+	:root .coursetag_plusfactor1 {
+		--colorppal: #E95F44;
+	}
+	.coursetag_plusfactor2 .shortanswer-container textarea:focus, 
+	.coursetag_plusfactor2 .shortanswer-container input:focus, 
+	.coursetag_plusfactor2 .shortanswer-container .preview:focus
+	.coursetag_plusfactor2 .form-control:focus,
+	.coursetag_plusfactor2 .form-control:focus-within {
+	    border-top-color: #E95F44a1;
+	    border-right-color: #E95F44a1;
+	    border-bottom-color: #E95F44a1;
+	    border-left-color: #E95F44a1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_plusfactor1.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    content: " ";
+	    background-image: url(imagenes/Plus_Factor_1.png);
+	}
+/*---*/
+
+/*---- coursetag_plusfactor2 ------*/
+/*Cambio de colores*/
+	:root .coursetag_plusfactor2 {
+		--colorppal: #98c1da;
+	}
+	.coursetag_plusfactor2 .shortanswer-container textarea:focus, 
+	.coursetag_plusfactor2 .shortanswer-container input:focus, 
+	.coursetag_plusfactor2 .shortanswer-container .preview:focus
+	.coursetag_plusfactor2 .form-control:focus,
+	.coursetag_plusfactor2 .form-control:focus-within {
+	    border-top-color: #98c1daa1;
+	    border-right-color: #98c1daa1;
+	    border-bottom-color: #98c1daa1;
+	    border-left-color: #98c1daa1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_plusfactor2.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Plus_Factor_2.png);
+	}
+/*--*/
+
+/*---- coursetag_plusfactor3 ------*/
+	/*Cambio de colores*/
+	:root .coursetag_plusfactor3 {
+		--colorppal: #6ECD85;
+	}
+	.coursetag_plusfactor3 .shortanswer-container textarea:focus, 
+	.coursetag_plusfactor3 .shortanswer-container input:focus, 
+	.coursetag_plusfactor3 .shortanswer-container .preview:focus
+	.coursetag_plusfactor3 .form-control:focus,
+	.coursetag_plusfactor3 .form-control:focus-within {
+	    border-top-color: #6ECD85a1;
+	    border-right-color: #6ECD85a1;
+	    border-bottom-color: #6ECD85a1;
+	    border-left-color: #6ECD85a1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_plusfactor3.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Plus_Factor_3.png);
+	}
+/*--*/
+
+/*---- coursetag_plusfactor4 ------*/
+	/*Cambio de colores*/
+	:root .coursetag_plusfactor4 {
+		--colorppal: #03467F;
+	}
+	.coursetag_plusfactor4 .shortanswer-container textarea:focus, 
+	.coursetag_plusfactor4 .shortanswer-container input:focus, 
+	.coursetag_plusfactor4 .shortanswer-container .preview:focus
+	.coursetag_plusfactor4 .form-control:focus,
+	.coursetag_plusfactor4 .form-control:focus-within {
+	    border-top-color: #03467Fa1;
+	    border-right-color: #03467Fa1;
+	    border-bottom-color: #03467Fa1;
+	    border-left-color: #03467Fa1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_plusfactor4.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Plus_Factor_4.png);
+	}
+/*--*/
+
+/*---- coursetag_plusfactor5 ------*/
+	/*Cambio de colores*/
+	:root .coursetag_plusfactor5 {
+		--colorppal: #009CA5;
+	}
+	.coursetag_plusfactor5 .shortanswer-container textarea:focus, 
+	.coursetag_plusfactor5 .shortanswer-container input:focus, 
+	.coursetag_plusfactor5 .shortanswer-container .preview:focus
+	.coursetag_plusfactor5 .form-control:focus,
+	.coursetag_plusfactor5 .form-control:focus-within {
+	    border-top-color: #009CA5a1;
+	    border-right-color: #009CA5a1;
+	    border-bottom-color: #009CA5a1;
+	    border-left-color: #009CA5a1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_plusfactor5.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Plus_Factor_5.png);
+	}
+/*--*/
+
+/*---- coursetag_plusfactor6 ------*/
+	/*Cambio de colores*/
+	:root .coursetag_plusfactor6 {
+		--colorppal: #E30B14;
+	}
+	.coursetag_plusfactor6 .shortanswer-container textarea:focus, 
+	.coursetag_plusfactor6 .shortanswer-container input:focus, 
+	.coursetag_plusfactor6 .shortanswer-container .preview:focus
+	.coursetag_plusfactor6 .form-control:focus,
+	.coursetag_plusfactor6 .form-control:focus-within {
+	    border-top-color: #E30B14a1;
+	    border-right-color: #E30B14a1;
+	    border-bottom-color: #E30B14a1;
+	    border-left-color: #E30B14a1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_plusfactor6.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Plus_Factor_6.png);
+	}
+
+       /*portadillas*/
+       .coursetag_plusfactor1 #indice .unit-content .header,
+	.coursetag_plusfactor2 #indice .unit-content .header,
+	.coursetag_plusfactor3 #indice .unit-content .header,
+	.coursetag_plusfactor4 #indice .unit-content .header,
+	.coursetag_plusfactor5 #indice .unit-content .header,
+	.coursetag_plusfactor6 #indice .unit-content .header {
+	    background: var(--colorppal) !important;
+		}
+		
+/*--*/
+/*---- Cambios para todas las coursetag de English Aware ---*/
+	.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_englishaware2.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_englishaware3.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_englishaware4.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_englishaware5.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_englishaware6.content_type_clase_majesticdemo #actividad .content .header .title {
+	    display: flex;
+	}
+
+	.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_englishaware2.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_englishaware3.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_englishaware4.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_englishaware5.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_englishaware6.content_type_clase_majesticdemo #actividad .content .header .title:before {
+		content: " ";
+	    background-position: center;
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    order: 2;
+	    position: relative;
+	    width: 352px;
+	    height: 60px;
+	    padding: 0;
+	}
+	.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_englishaware2.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_englishaware3.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_englishaware4.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_englishaware5.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_englishaware6.content_type_clase_majesticdemo #actividad .content .header .title h3 {
+		margin-left: 0;
+    	text-align: left;
+    	margin-top: 10px;
+	}
+	@media (max-width: 750px) {
+		.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_englishaware2.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_englishaware3.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_englishaware4.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_englishaware5.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_englishaware6.content_type_clase_majesticdemo #actividad .content .header .title {
+		    display: flex;
+		    flex-flow: column-reverse;
+		}
+		.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title:before,
+		.coursetag_englishaware2.content_type_clase_majesticdemo #actividad .content .header .title:before,
+		.coursetag_englishaware3.content_type_clase_majesticdemo #actividad .content .header .title:before,
+		.coursetag_englishaware4.content_type_clase_majesticdemo #actividad .content .header .title:before,
+		.coursetag_englishaware5.content_type_clase_majesticdemo #actividad .content .header .title:before,
+		.coursetag_englishaware6.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    	margin: 0 auto;
+	    	width: 300px;
+		}
+		.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_englishaware2.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_englishaware3.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_englishaware4.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_englishaware5.content_type_clase_majesticdemo #actividad .content .header .title, 
+		.coursetag_englishaware6.content_type_clase_majesticdemo #actividad .content .header .title {
+	    	padding: 15px 28px;
+		}
+		.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title h3,
+		.coursetag_englishaware2.content_type_clase_majesticdemo #actividad .content .header .title h3,
+		.coursetag_englishaware3.content_type_clase_majesticdemo #actividad .content .header .title h3,
+		.coursetag_englishaware4.content_type_clase_majesticdemo #actividad .content .header .title h3,
+		.coursetag_englishaware5.content_type_clase_majesticdemo #actividad .content .header .title h3,
+		.coursetag_englishaware6.content_type_clase_majesticdemo #actividad .content .header .title h3 {
+			text-align: center;
+			border-top: 2px solid;
+   		 	padding-top: 10px;
+		}
+	}
+/*--*/
+
+/*---- coursetag_englishaware1 ------*/
+
+	/*Cambio de colores*/
+	:root .coursetag_englishaware1 {
+		--colorppal: #D2232B;
+	}
+	.coursetag_englishaware1 .shortanswer-container textarea:focus, 
+	.coursetag_englishaware1 .shortanswer-container input:focus, 
+	.coursetag_englishaware1 .shortanswer-container .preview:focus
+	.coursetag_englishaware1 .form-control:focus,
+	.coursetag_englishaware1 .form-control:focus-within {
+	    border-top-color: #D2232Ba1;
+	    border-right-color: #D2232Ba1;
+	    border-bottom-color: #D2232Ba1;
+	    border-left-color: #D2232Ba1;
+	}
+
+	/* Cambios en el logo*/
+	.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Cenefas_EA_1_6_01.png);
+	}
+/*--*/
+
+/*---- coursetag_englishaware2 ------*/
+	/*Cambio de colores*/
+	:root .coursetag_englishaware2 {
+		--colorppal: #00ADEE;
+	}
+	.coursetag_englishaware2 .shortanswer-container textarea:focus, 
+	.coursetag_englishaware2 .shortanswer-container input:focus, 
+	.coursetag_englishaware2 .shortanswer-container .preview:focus
+	.coursetag_englishaware2 .form-control:focus,
+	.coursetag_englishaware2 .form-control:focus-within {
+	    border-top-color: #00ADEEa1;
+	    border-right-color: #00ADEEa1;
+	    border-bottom-color: #00ADEEa1;
+	    border-left-color: #00ADEEa1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_englishaware2.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Cenefas_EA_1_6_02.png);
+	}
+/*--*/
+
+/*---- coursetag_englishaware3 ------*/
+	/*Cambio de colores*/
+	:root .coursetag_englishaware3 {
+		--colorppal: #00AB4D;
+	}
+	.coursetag_englishaware3 .shortanswer-container textarea:focus, 
+	.coursetag_englishaware3 .shortanswer-container input:focus, 
+	.coursetag_englishaware3 .shortanswer-container .preview:focus
+	.coursetag_englishaware3 .form-control:focus,
+	.coursetag_englishaware3 .form-control:focus-within {
+	    border-top-color: #00AB4Da1;
+	    border-right-color: #00AB4Da1;
+	    border-bottom-color: #00AB4Da1;
+	    border-left-color: #00AB4Da1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_englishaware3.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Cenefas_EA_1_6_1_03.png);
+	}
+/*--*/
+
+/*---- coursetag_englishaware4 ------*/
+	/*Cambio de colores*/
+	:root .coursetag_englishaware4 {
+		--colorppal: #FEB811;
+	}
+	.coursetag_englishaware4 .shortanswer-container textarea:focus, 
+	.coursetag_englishaware4 .shortanswer-container input:focus, 
+	.coursetag_englishaware4 .shortanswer-container .preview:focus
+	.coursetag_englishaware4 .form-control:focus,
+	.coursetag_englishaware4 .form-control:focus-within {
+	    border-top-color: #FEB811a1;
+	    border-right-color: #FEB811a1;
+	    border-bottom-color: #FEB811a1;
+	    border-left-color: #FEB811a1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_englishaware4.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Cenefas_EA_1_6_1_04.png);
+	}
+/*--*/
+
+/*---- coursetag_englishaware5 ------*/
+	/*Cambio de colores*/
+	:root .coursetag_englishaware5 {
+		--colorppal: #922790;
+	}
+	.coursetag_englishaware5 .shortanswer-container textarea:focus, 
+	.coursetag_englishaware5 .shortanswer-container input:focus, 
+	.coursetag_englishaware5 .shortanswer-container .preview:focus
+	.coursetag_englishaware5 .form-control:focus,
+	.coursetag_englishaware5 .form-control:focus-within {
+	    border-top-color: #922790a1;
+	    border-right-color: #922790a1;
+	    border-bottom-color: #922790a1;
+	    border-left-color: #922790a1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_englishaware5.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Cenefas_EA_1_6_1_05.png);
+	}
+/*--*/
+
+/*---- coursetag_englishaware6 ------*/
+	/*Cambio de colores*/
+	:root .coursetag_englishaware6 {
+		--colorppal: #E50069;
+	}
+	.coursetag_englishaware6 .shortanswer-container textarea:focus, 
+	.coursetag_englishaware6 .shortanswer-container input:focus, 
+	.coursetag_englishaware6 .shortanswer-container .preview:focus
+	.coursetag_englishaware6 .form-control:focus,
+	.coursetag_englishaware6 .form-control:focus-within {
+	    border-top-color: #E50069a1;
+	    border-right-color: #E50069a1;
+	    border-bottom-color: #E50069a1;
+	    border-left-color: #E50069a1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_englishaware6.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Cenefas_EA_1_6_1_06.png);
+	}
+   
+	/* Color de la portadilla*/
+
+       	.coursetag_englishaware1 #indice .unit-content .header,
+	.coursetag_englishaware2 #indice .unit-content .header,
+	.coursetag_englishaware3 #indice .unit-content .header,
+	.coursetag_englishaware4 #indice .unit-content .header,
+	.coursetag_englishaware5 #indice .unit-content .header,
+	.coursetag_englishaware6 #indice .unit-content .header {
+	    background: var(--colorppal) !important;
+	}
+
+
+
+/*--*/
+
+/* --- Coursetag materias troncales ---*/
+/*---- Cambios para todas las coursetag de English Aware ---*/
+	.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_quimica2.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_ecologia.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_geotrigo.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_lecturaoralyescrita2.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_calculodif.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_horizontes1.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_horizontes2.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_horizontes3.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_horizontes4.content_type_clase_majesticdemo #actividad .content .header .title {
+	    display: flex;
+	}
+	
+	.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_quimica2.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_ecologia.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_geotrigo.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_lecturaoralyescrita2.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_calculodif.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_horizontes1.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_horizontes2.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_horizontes3.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_horizontes4.content_type_clase_majesticdemo #actividad .content .header .title:before {
+		content: " ";
+	    background-position: center;
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    order: 2;
+	    position: relative;
+	    width: 352px;
+	    height: 60px;
+	    padding: 0;
+	}
+	.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_quimica2.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_ecologia.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_geotrigo.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_lecturaoralyescrita2.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_calculodif.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_horizontes1.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_horizontes2.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_horizontes3.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_horizontes4.content_type_clase_majesticdemo #actividad .content .header .title h3 {
+		margin-left: 0;
+    	text-align: left;
+    	margin-top: 10px;
+	}
+	@media (max-width: 750px) {
+		.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_quimica2.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_ecologia.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_geotrigo.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_lecturaoralyescrita2.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_calculodif.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_horizontes1.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_horizontes2.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_horizontes3.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_horizontes4.content_type_clase_majesticdemo #actividad .content .header .title {
+		    display: flex;
+		    flex-flow: column-reverse;
+		    padding: 15px 28px;
+		}
+		.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title:before,
+		.coursetag_quimica2.content_type_clase_majesticdemo #actividad .content .header .title:before,
+		.coursetag_ecologia.content_type_clase_majesticdemo #actividad .content .header .title:before,
+		.coursetag_geotrigo.content_type_clase_majesticdemo #actividad .content .header .title:before,
+		.coursetag_lecturaoralyescrita2.content_type_clase_majesticdemo #actividad .content .header .title:before,
+		.coursetag_calculodif.content_type_clase_majesticdemo #actividad .content .header .title:before,
+		.coursetag_horizontes1.content_type_clase_majesticdemo #actividad .content .header .title:before,
+		.coursetag_horizontes2.content_type_clase_majesticdemo #actividad .content .header .title:before,
+		.coursetag_horizontes3.content_type_clase_majesticdemo #actividad .content .header .title:before,
+		.coursetag_horizontes4.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    	    margin: -10px auto;
+    			width: 200px;
+		}
+		.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title h3,
+		.coursetag_quimica2.content_type_clase_majesticdemo #actividad .content .header .title h3,
+		.coursetag_ecologia.content_type_clase_majesticdemo #actividad .content .header .title h3,
+		.coursetag_geotrigo.content_type_clase_majesticdemo #actividad .content .header .title h3,
+		.coursetag_lecturaoralyescrita2.content_type_clase_majesticdemo #actividad .content .header .title h3,
+		.coursetag_calculodif.content_type_clase_majesticdemo #actividad .content .header .title h3,
+		.coursetag_horizontes1.content_type_clase_majesticdemo #actividad .content .header .title h3,
+		.coursetag_horizontes2.content_type_clase_majesticdemo #actividad .content .header .title h3,
+		.coursetag_horizontes3.content_type_clase_majesticdemo #actividad .content .header .title h3,
+		.coursetag_horizontes4.content_type_clase_majesticdemo #actividad .content .header .title h3 {
+		    text-align: center;
+		    border-top: 2px solid;
+		    padding-top: 4px;
+		    margin-top: 8px;
+		}
+	}
+
+/*--*/
+
+/*-- coursetag_fisica1 --*/
+	/*Cambio de colores*/
+	:root .coursetag_fisica1 {
+		--colorppal: #772C91;
+	}
+	.coursetag_fisica1 .shortanswer-container textarea:focus, 
+	.coursetag_fisica1 .shortanswer-container input:focus, 
+	.coursetag_fisica1 .shortanswer-container .preview:focus
+	.coursetag_fisica1 .form-control:focus,
+	.coursetag_fisica1 .form-control:focus-within {
+	    border-top-color: #772C91a1;
+	    border-right-color: #772C91a1;
+	    border-bottom-color: #772C91a1;
+	    border-left-color: #772C91a1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Fisica_1.png);
+	}
+/*--*/
+
+/*-- coursetag_quimica2 --*/
+	/*Cambio de colores*/
+	:root .coursetag_quimica2 {
+		--colorppal: #85103B;
+	}
+	.coursetag_quimica2 .shortanswer-container textarea:focus, 
+	.coursetag_quimica2 .shortanswer-container input:focus, 
+	.coursetag_quimica2 .shortanswer-container .preview:focus
+	.coursetag_quimica2 .form-control:focus,
+	.coursetag_quimica2 .form-control:focus-within {
+	    border-top-color: #85103Ba1;
+	    border-right-color: #85103Ba1;
+	    border-bottom-color: #85103Ba1;
+	    border-left-color: #85103Ba1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_quimica2.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Quimica_2.png);
+	}
+/*--*/
+
+/*-- coursetag_ecologia --*/
+	/*Cambio de colores*/
+	:root .coursetag_ecologia {
+		--colorppal: #007C37;
+	}
+	.coursetag_ecologia .shortanswer-container textarea:focus, 
+	.coursetag_ecologia .shortanswer-container input:focus, 
+	.coursetag_ecologia .shortanswer-container .preview:focus
+	.coursetag_ecologia .form-control:focus,
+	.coursetag_ecologia .form-control:focus-within {
+	    border-top-color: #007C37a1;
+	    border-right-color: #007C37a1;
+	    border-bottom-color: #007C37a1;
+	    border-left-color: #007C37a1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_ecologia.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Ecologia.png);
+	}
+/*--*/
+
+/*-- coursetag_geotrigo --*/
+	/*Cambio de colores*/
+	:root .coursetag_geotrigo {
+		--colorppal: #0070B2;
+	}
+	.coursetag_geotrigo .shortanswer-container textarea:focus, 
+	.coursetag_geotrigo .shortanswer-container input:focus, 
+	.coursetag_geotrigo .shortanswer-container .preview:focus
+	.coursetag_geotrigo .form-control:focus,
+	.coursetag_geotrigo .form-control:focus-within {
+	    border-top-color: #0070B2a1;
+	    border-right-color: #0070B2a1;
+	    border-bottom-color: #0070B2a1;
+	    border-left-color: #0070B2a1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_geotrigo.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Geometria_y_Trigonometria.png);
+	}
+	@media (max-width: 750px) {
+		.coursetag_geotrigo.content_type_clase_majesticdemo #actividad .content .header .title:before {
+			width: 250px;	
+		}
+	}
+/*--*/
+
+/*-- coursetag_lecturaoralyescrita2 --*/
+	/*Cambio de colores*/
+	:root .coursetag_lecturaoralyescrita2 {
+		--colorppal: #B0CF34;
+	}
+	.coursetag_lecturaoralyescrita2 .shortanswer-container textarea:focus, 
+	.coursetag_lecturaoralyescrita2 .shortanswer-container input:focus, 
+	.coursetag_lecturaoralyescrita2 .shortanswer-container .preview:focus
+	.coursetag_lecturaoralyescrita2 .form-control:focus,
+	.coursetag_lecturaoralyescrita2 .form-control:focus-within {
+	    border-top-color: #B0CF34a1;
+	    border-right-color: #B0CF34a1;
+	    border-bottom-color: #B0CF34a1;
+	    border-left-color: #B0CF34a1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_lecturaoralyescrita2.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Lectura_Expresion_Oral_y_Escrita_2.png);
+	    width: 500px;
+	}
+		@media (max-width: 750px) {
+		.coursetag_lecturaoralyescrita2.content_type_clase_majesticdemo #actividad .content .header .title:before {
+			width: 250px;	
+		}
+	}
+/*--*/
+
+/*-- coursetag_calculodif --*/
+	/*Cambio de colores*/
+	:root .coursetag_calculodif {
+		--colorppal: #85103B;
+	}
+	.coursetag_calculodif .shortanswer-container textarea:focus, 
+	.coursetag_calculodif .shortanswer-container input:focus, 
+	.coursetag_calculodif .shortanswer-container .preview:focus
+	.coursetag_calculodif .form-control:focus,
+	.coursetag_calculodif .form-control:focus-within {
+	    border-top-color: #85103Ba1;
+	    border-right-color: #85103Ba1;
+	    border-bottom-color: #85103Ba1;
+	    border-left-color: #85103Ba1;
+	}
+
+	/* Cambios en el logo */
+	/*¡¡¡ COMENTO LA CLASE PORQUE FALTA EL LOGO !!!*/
+	/*.coursetag_calculodif.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Lectura_Expresion_Oral_y_Escrita_2.png);
+	}
+	*/
+/*--*/
+
+/*-- coursetag_horizontes1 --*/
+	/*Cambio de colores*/
+	:root .coursetag_horizontes1 {
+		--colorppal: #4A5574;
+	}
+	.coursetag_horizontes1 .shortanswer-container textarea:focus, 
+	.coursetag_horizontes1 .shortanswer-container input:focus, 
+	.coursetag_horizontes1 .shortanswer-container .preview:focus
+	.coursetag_horizontes1 .form-control:focus,
+	.coursetag_horizontes1 .form-control:focus-within {
+	    border-top-color: #4A5574a1;
+	    border-right-color: #4A5574a1;
+	    border-bottom-color: #4A5574a1;
+	    border-left-color: #4A5574a1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_horizontes1.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Horizontes_1.png);
+	}
+/*--*/
+
+/*-- coursetag_horizontes2 --*/
+	/*Cambio de colores*/
+	:root .coursetag_horizontes2 {
+		--colorppal: #4A5574;
+	}
+	.coursetag_horizontes2 .shortanswer-container textarea:focus, 
+	.coursetag_horizontes2 .shortanswer-container input:focus, 
+	.coursetag_horizontes2 .shortanswer-container .preview:focus
+	.coursetag_horizontes2 .form-control:focus,
+	.coursetag_horizontes2 .form-control:focus-within {
+	    border-top-color: #4A5574a1;
+	    border-right-color: #4A5574a1;
+	    border-bottom-color: #4A5574a1;
+	    border-left-color: #4A5574a1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_horizontes2.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Horizontes_2.png);
+	}
+/*--*/
+
+/*-- coursetag_horizontes3 --*/
+	/*Cambio de colores*/
+	:root .coursetag_horizontes3 {
+		--colorppal: #72B3E3;
+	}
+	.coursetag_horizontes3 .shortanswer-container textarea:focus, 
+	.coursetag_horizontes3 .shortanswer-container input:focus, 
+	.coursetag_horizontes3 .shortanswer-container .preview:focus
+	.coursetag_horizontes3 .form-control:focus,
+	.coursetag_horizontes3 .form-control:focus-within {
+	    border-top-color: #72B3E3a1;
+	    border-right-color: #72B3E3a1;
+	    border-bottom-color: #72B3E3a1;
+	    border-left-color: #72B3E3a1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_horizontes3.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Horizontes_3.png);
+	}
+/*--*/
+
+/*-- coursetag_horizontes4 --*/
+	/*Cambio de colores*/
+	:root .coursetag_horizontes4 {
+		--colorppal: #72B3E3;
+	}
+	.coursetag_horizontes4 .shortanswer-container textarea:focus, 
+	.coursetag_horizontes4 .shortanswer-container input:focus, 
+	.coursetag_horizontes4 .shortanswer-container .preview:focus
+	.coursetag_horizontes4 .form-control:focus,
+	.coursetag_horizontes4 .form-control:focus-within {
+	    border-top-color: #72B3E3a1;
+	    border-right-color: #72B3E3a1;
+	    border-bottom-color: #72B3E3a1;
+	    border-left-color: #72B3E3a1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_horizontes4.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Horizontes_4.png);
+	}
+
+/* Color de la portadilla*/
+
+       	.coursetag_fisica1 #indice .unit-content .header,
+	.coursetag_quimica2 #indice .unit-content .header,
+	.coursetag_ecologia #indice .unit-content .header,
+	.coursetag_geotrigo #indice .unit-content .header,
+	.coursetag_lecturaoralyescrita2 #indice .unit-content .header,
+	.coursetag_calculodif #indice .unit-content .header,
+	.coursetag_horizontes1 #indice .unit-content .header,
+	.coursetag_horizontes2 #indice .unit-content .header,
+	.coursetag_horizontes3 #indice .unit-content .header,
+	.coursetag_horizontes4 #indice .unit-content .header {
+		background: var(--colorppal) !important;
+		}
+		
+/*--*/
+
