@@ -748,26 +748,6 @@ a:hover, a:active, a:focus {
 	margin-top: -16px;
 }
 
-.item-container .icon-draw:before {
-	background-image: url(images/Icon_draw.png);
-}
-
-.item-container .icon-write:before {
-	background-image: url(images/Icon_write.png);
-}
-
-.item-container .icon-speaking:before {
-	background-image: url(images/Icon_speaking.png);
-}
-
-.item-container .icon-reading:before {
-	background-image: url(images/Icon_reading.png);
-}
-
-.item-container .icon-star:before {
-	background-image: url(images/Icon_star.png);
-}
-
 /* Forms */
 
 .content_type_clase_majesticdemo .slide_main input,
@@ -1777,6 +1757,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	.coursetag_takeup2.content_type_clase_majesticdemo #actividad .content .header .title,
 	.coursetag_takeup4.content_type_clase_majesticdemo #actividad .content .header .title {
 	    display: flex;
+	    padding: 15px 30px 15px 97px;
 	}
 	
 	.coursetag_takeup2.content_type_clase_majesticdemo #actividad .content .header .title:before,
@@ -1787,8 +1768,8 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	    background-repeat: no-repeat;
 	    order: 2;
 	    position: relative;
-	    width: 352px;
-	    height: 60px;
+	    width: 428px;
+	    height: 85px;
 	    padding: 0;
 	}
 
@@ -1796,7 +1777,8 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	.coursetag_takeup4.content_type_clase_majesticdemo #actividad .content .header .title h3 {
 		margin-left: 0;
     	text-align: left;
-    	margin-top: 10px;
+    	margin-top: 14px;
+    	align-self: center;
 	}
 	@media (max-width: 750px) {
 		.coursetag_takeup2.content_type_clase_majesticdemo #actividad .content .header .title,
@@ -1809,7 +1791,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 		.coursetag_takeup2.content_type_clase_majesticdemo #actividad .content .header .title:before,
 		.coursetag_takeup4.content_type_clase_majesticdemo #actividad .content .header .title:before {
 	    	    margin: -10px auto;
-    			width: 200px;
+    			width: 216px;
 		}
 
 		.coursetag_takeup2.content_type_clase_majesticdemo #actividad .content .header .title h3,
@@ -1884,6 +1866,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	.coursetag_bestofenglish5.content_type_clase_majesticdemo #actividad .content .header .title,
 	.coursetag_bestofenglish6.content_type_clase_majesticdemo #actividad .content .header .title {
 	    display: flex;
+	    padding: 15px 80px;
 	}
 
 	.coursetag_bestofenglish1.content_type_clase_majesticdemo #actividad .content .header .title:before,
@@ -1893,13 +1876,13 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	.coursetag_bestofenglish5.content_type_clase_majesticdemo #actividad .content .header .title:before,
 	.coursetag_bestofenglish6.content_type_clase_majesticdemo #actividad .content .header .title:before {
 		content: " ";
-	    background-position: center;
+	    background-position: right;
 	    background-size: contain;
 	    background-repeat: no-repeat;
 	    order: 2;
 	    position: relative;
 	    width: 352px;
-	    height: 65px;
+	    height: 75px;
 	    padding: 0;
 	}
 	.coursetag_bestofenglish1.content_type_clase_majesticdemo #actividad .content .header .title h3,
@@ -1910,7 +1893,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	.coursetag_bestofenglish6.content_type_clase_majesticdemo #actividad .content .header .title h3 {
 		margin-left: 0;
     	text-align: left;
-    	margin-top: 10px;
+    	margin-top: 1px;
     	-moz-text-shadow: 0px 1px 3px #000000b3;
     	-webkit-text-shadow: 0px 1px 3px #000000b3;
     	text-shadow: 0px 1px 3px #000000b3;
@@ -1934,6 +1917,8 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 		.coursetag_bestofenglish6.content_type_clase_majesticdemo #actividad .content .header .title:before {
 	    	margin: 0 auto;
 	    	width: 300px;
+	    	background-position: center;
+	    	margin-left:35px;
 		}
 		.coursetag_bestofenglish1.content_type_clase_majesticdemo #actividad .content .header .title,
 		.coursetag_bestofenglish2.content_type_clase_majesticdemo #actividad .content .header .title,
@@ -2116,7 +2101,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 
 	/*Cambio de colores*/
 	:root .coursetag_bestofenglish6 {
-		--colorppal: #565981;
+		--colorppal: #0072BD;
 	}
 	.coursetag_bestofenglish6.content_type_clase_majesticdemo #actividad .content .header .title{
 		background: #C0C2DC;
@@ -2126,10 +2111,10 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	.coursetag_bestofenglish6 .shortanswer-container .preview:focus
 	.coursetag_bestofenglish6 .form-control:focus,
 	.coursetag_bestofenglish6 .form-control:focus-within {
-	    border-top-color: #565981a1;
-	    border-right-color: #565981a1;
-	    border-bottom-color: #565981a1;
-	    border-left-color: #565981a1;
+	    border-top-color: #0072BDa1;
+	    border-right-color: #0072BDa1;
+	    border-bottom-color: #0072BDa1;
+	    border-left-color: #0072BDa1;
 	}
 
 	/* Cambios en el logo*/
