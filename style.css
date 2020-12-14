@@ -1852,7 +1852,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 
 	/*Cambios portadilla*/
 	.coursetag_takeup4 #indice .unit-content .header {
-		background-image: url(Portadilla_Take_Up_4.png) !important;
+		background-image: url(imagenes/Portadilla_Take_Up_4.png) !important;
 	}
 /*--*/
 
@@ -1949,7 +1949,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	}
 
 	.coursetag_bestofenglish1.content_type_clase_majesticdemo #actividad .content .header .title{
-		background: #f2dec4;
+		background: #CDD8ED;
 	}
 	.coursetag_bestofenglish1 .shortanswer-container textarea:focus, 
 	.coursetag_bestofenglish1 .shortanswer-container input:focus, 
@@ -2101,7 +2101,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 
 	/*Cambio de colores*/
 	:root .coursetag_bestofenglish6 {
-		--colorppal: #0072BD;
+		--colorppal: #565a81;
 	}
 	.coursetag_bestofenglish6.content_type_clase_majesticdemo #actividad .content .header .title{
 		background: #C0C2DC;
@@ -2111,10 +2111,10 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	.coursetag_bestofenglish6 .shortanswer-container .preview:focus
 	.coursetag_bestofenglish6 .form-control:focus,
 	.coursetag_bestofenglish6 .form-control:focus-within {
-	    border-top-color: #0072BDa1;
-	    border-right-color: #0072BDa1;
-	    border-bottom-color: #0072BDa1;
-	    border-left-color: #0072BDa1;
+	    border-top-color: #565a81a1;
+	    border-right-color: #565a81a1;
+	    border-bottom-color: #565a81a1;
+	    border-left-color: #565a81a1;
 	}
 
 	/* Cambios en el logo*/
