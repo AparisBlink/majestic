@@ -966,17 +966,17 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 /*---- coursetag_plusfactor2 ------*/
 /*Cambio de colores*/
 	:root .coursetag_plusfactor2 {
-		--colorppal: #98c1da;
+		--colorppal: #8BC53E;
 	}
 	.coursetag_plusfactor2 .shortanswer-container textarea:focus, 
 	.coursetag_plusfactor2 .shortanswer-container input:focus, 
 	.coursetag_plusfactor2 .shortanswer-container .preview:focus
 	.coursetag_plusfactor2 .form-control:focus,
 	.coursetag_plusfactor2 .form-control:focus-within {
-	    border-top-color: #98c1daa1;
-	    border-right-color: #98c1daa1;
-	    border-bottom-color: #98c1daa1;
-	    border-left-color: #98c1daa1;
+	    border-top-color: #8BC53Ea1;
+	    border-right-color: #8BC53Ea1;
+	    border-bottom-color: #8BC53Ea1;
+	    border-left-color: #8BC53Ea1;
 	}
 
 	/* Cambios en el logo */
