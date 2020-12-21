@@ -930,11 +930,11 @@
 	:root .coursetag_plusfactor1 {
 		--colorppal: #E95F44;
 	}
-	.coursetag_plusfactor2 .shortanswer-container textarea:focus, 
-	.coursetag_plusfactor2 .shortanswer-container input:focus, 
-	.coursetag_plusfactor2 .shortanswer-container .preview:focus
-	.coursetag_plusfactor2 .form-control:focus,
-	.coursetag_plusfactor2 .form-control:focus-within {
+	.coursetag_plusfactor1 .shortanswer-container textarea:focus, 
+	.coursetag_plusfactor1 .shortanswer-container input:focus, 
+	.coursetag_plusfactor1 .shortanswer-container .preview:focus
+	.coursetag_plusfactor1 .form-control:focus,
+	.coursetag_plusfactor1 .form-control:focus-within {
 	    border-top-color: #E95F44a1;
 	    border-right-color: #E95F44a1;
 	    border-bottom-color: #E95F44a1;
