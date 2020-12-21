@@ -748,6 +748,27 @@ a:hover, a:active, a:focus {
 	margin-top: -16px;
 }
 
+/*Adjuntar archivo*/
+body.content_type_clase_majesticdemo #actividad .content img {
+    padding: 5px;
+    background: black;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    filter: grayscale(1) brightness(1.8);	
+    margin-bottom: 3px;
+}
+.bck-sub-label,
+ .bck-file-label {
+ 	background: white;
+ 	max-width: none;
+    border-bottom: 2px solid black;
+    margin-left: -3px;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 5px 8px 5px 9px;
+}
+
 /* Forms */
 
 .content_type_clase_majesticdemo .slide_main input,
@@ -776,6 +797,67 @@ a:hover, a:active, a:focus {
     -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0);
 }
+
+/* PopUp */
+#actividad .info-button {
+    -webkit-box-shadow: 1px 1px 3px 1px #5555558c;
+    -moz-box-shadow: 1px 1px 3px 1px #5555558c;
+    box-shadow: 1px 1px 3px 1px #5555558c;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.info-template.shown {
+	background: white;
+}
+.info-template .info-title.shown {
+	color: black;
+    font-weight: bold;
+}
+.info-template .info-icon {
+    color: black;
+}
+.info-popover .popover-title,
+ .popover-template .popover-title {
+ 	color: black;
+    font-weight: bold;
+}
+.info-popover .popover-title:before, .popover-template .popover-title:before {
+	color: black;
+}
+.fa-info:before {
+	color: black;
+}
+
+/* FLIPBOX */
+body:not(.edit) .front .bck-flipbox-title,
+ body:not(.edit) .front .bck-flipbox-section {
+ 	color: black;
+    font-size: 18px;
+}
+body:not(.edit) .bck-flipbox-face.front {
+    color: black;
+    border-color: black;
+    -moz-box-shadow: 4px 6px 5px #00000042;
+    -webkit-box-shadow: 4px 6px 5px #00000042;
+    box-shadow: 4px 6px 5px #00000042;
+}
+body:not(.edit) .bck-flipbox-face.back {
+    background-color: black;
+    border-color: black;
+    font-size: 18px;
+}
+
+/* Desplegable */
+.bck-dropdown-button {
+    cursor: pointer;
+    border: 2px solid black;
+}
+.bck-dropdown-content {
+	background-color: #e6e6e6;
+    border-bottom: 2px solid black;
+}
+
+
 
 /* Slides */
 
