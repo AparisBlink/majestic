@@ -672,15 +672,6 @@
 		margin-top: -16px;
 	}
 	/*Adjuntar archivo*/
-	body.content_type_clase_majesticdemo #actividad .content img {
-	    padding: 5px;
-	    background: black;
-	    -webkit-border-radius: 0;
-	    -moz-border-radius: 0;
-	    border-radius: 0;
-	    filter: grayscale(1) brightness(1.8);	
-	    margin-bottom: 3px;
-	}
 	.bck-sub-label,
 	 .bck-file-label {
 	 	background: white;
