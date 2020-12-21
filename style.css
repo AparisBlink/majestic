@@ -674,13 +674,25 @@
 	/*Adjuntar archivo*/
 	.bck-sub-label,
 	 .bck-file-label {
-	 	background: white;
-	 	max-width: none;
+	    background: #e6e6e6;
+	    max-width: none;
 	    border-bottom: 2px solid black;
 	    margin-left: -3px;
 	    margin-bottom: 0;
 	    border-radius: 0;
+	    position: relative;
 	    padding: 5px 8px 5px 9px;
+	}
+	.bck-sub-label:before, .bck-file-label:before {
+	    content: "";
+	    position: absolute;
+	    width: 34px;
+	    height: 37px;
+	    background: #00000017;
+	    left: -34px;
+	    bottom: -2px;
+	    border-bottom: 2px solid black;
+	    z-index: 0;
 	}
 
 	/* Forms */
