@@ -501,9 +501,9 @@
 	    content: counter(bck-li-counter)".";
 	    position: absolute;
 	    top: -1px;
-	    left: -3px;
+	    left: -16px;
 	    display: block;
-	    width: 24px;
+	    width: 50px;
 	    height: 24px;
 	    -webkit-box-shadow: none;
 	    -moz-box-shadow: none;
@@ -1064,17 +1064,17 @@
 /*---- coursetag_plusfactor6 ------*/
 	/*Cambio de colores*/
 	:root .coursetag_plusfactor6 {
-		--colorppal: #E30B14;
+		--colorppal: #BD3456;
 	}
 	.coursetag_plusfactor6 .shortanswer-container textarea:focus, 
 	.coursetag_plusfactor6 .shortanswer-container input:focus, 
 	.coursetag_plusfactor6 .shortanswer-container .preview:focus
 	.coursetag_plusfactor6 .form-control:focus,
 	.coursetag_plusfactor6 .form-control:focus-within {
-	    border-top-color: #E30B14a1;
-	    border-right-color: #E30B14a1;
-	    border-bottom-color: #E30B14a1;
-	    border-left-color: #E30B14a1;
+	    border-top-color: #BD3456a1;
+	    border-right-color: #BD3456a1;
+	    border-bottom-color: #BD3456a1;
+	    border-left-color: #BD3456a1;
 	}
 
 	/* Cambios en el logo */
@@ -1168,17 +1168,17 @@
 
 	/*Cambio de colores*/
 	:root .coursetag_englishaware1 {
-		--colorppal: #D2232B;
+		--colorppal: #BD3456;
 	}
 	.coursetag_englishaware1 .shortanswer-container textarea:focus, 
 	.coursetag_englishaware1 .shortanswer-container input:focus, 
 	.coursetag_englishaware1 .shortanswer-container .preview:focus
 	.coursetag_englishaware1 .form-control:focus,
 	.coursetag_englishaware1 .form-control:focus-within {
-	    border-top-color: #D2232Ba1;
-	    border-right-color: #D2232Ba1;
-	    border-bottom-color: #D2232Ba1;
-	    border-left-color: #D2232Ba1;
+	    border-top-color: #BD3456a1;
+	    border-right-color: #BD3456a1;
+	    border-bottom-color: #BD3456a1;
+	    border-left-color: #BD3456a1;
 	}
 
 	/* Cambios en el logo*/
@@ -1276,17 +1276,17 @@
 /*---- coursetag_englishaware5 ------*/
 	/*Cambio de colores*/
 	:root .coursetag_englishaware5 {
-		--colorppal: #922790;
+		--colorppal: #7365A7;
 	}
 	.coursetag_englishaware5 .shortanswer-container textarea:focus, 
 	.coursetag_englishaware5 .shortanswer-container input:focus, 
 	.coursetag_englishaware5 .shortanswer-container .preview:focus
 	.coursetag_englishaware5 .form-control:focus,
 	.coursetag_englishaware5 .form-control:focus-within {
-	    border-top-color: #922790a1;
-	    border-right-color: #922790a1;
-	    border-bottom-color: #922790a1;
-	    border-left-color: #922790a1;
+	    border-top-color: #7365A7a1;
+	    border-right-color: #7365A7a1;
+	    border-bottom-color: #7365A7a1;
+	    border-left-color: #7365A7a1;
 	}
 
 	/* Cambios en el logo */
@@ -1303,17 +1303,17 @@
 /*---- coursetag_englishaware6 ------*/
 	/*Cambio de colores*/
 	:root .coursetag_englishaware6 {
-		--colorppal: #ED0372;
+		--colorppal: #CD4A8B;
 	}
 	.coursetag_englishaware6 .shortanswer-container textarea:focus, 
 	.coursetag_englishaware6 .shortanswer-container input:focus, 
 	.coursetag_englishaware6 .shortanswer-container .preview:focus
 	.coursetag_englishaware6 .form-control:focus,
 	.coursetag_englishaware6 .form-control:focus-within {
-	    border-top-color: #ED0372a1;
-	    border-right-color: #ED0372a1;
-	    border-bottom-color: #ED0372a1;
-	    border-left-color: #ED0372a1;
+	    border-top-color: #CD4A8Ba1;
+	    border-right-color: #CD4A8Ba1;
+	    border-bottom-color: #CD4A8Ba1;
+	    border-left-color: #CD4A8Ba1;
 	}
 
 	/* Cambios en el logo */
@@ -1437,17 +1437,17 @@
 /*-- coursetag_fisica1 --*/
 	/*Cambio de colores*/
 	:root .coursetag_fisica1 {
-		--colorppal: #772C91;
+		--colorppal: #7365A7;
 	}
 	.coursetag_fisica1 .shortanswer-container textarea:focus, 
 	.coursetag_fisica1 .shortanswer-container input:focus, 
 	.coursetag_fisica1 .shortanswer-container .preview:focus
 	.coursetag_fisica1 .form-control:focus,
 	.coursetag_fisica1 .form-control:focus-within {
-	    border-top-color: #772C91a1;
-	    border-right-color: #772C91a1;
-	    border-bottom-color: #772C91a1;
-	    border-left-color: #772C91a1;
+	    border-top-color: #7365A7a1;
+	    border-right-color: #7365A7a1;
+	    border-bottom-color: #7365A7a1;
+	    border-left-color: #7365A7a1;
 	}
 
 	/* Cambios en el logo */
@@ -1935,7 +1935,7 @@
 
 	/*Cambio de colores*/
 	:root .coursetag_bestofenglish1 {
-		--colorppal: #A7247A;
+		--colorppal: #7365A7;
 	}
 
 	.coursetag_bestofenglish1.content_type_clase_majesticdemo #actividad .content .header .title{
@@ -1946,10 +1946,10 @@
 	.coursetag_bestofenglish1 .shortanswer-container .preview:focus
 	.coursetag_bestofenglish1 .form-control:focus,
 	.coursetag_bestofenglish1 .form-control:focus-within {
-	    border-top-color: #A7247Aa1;
-	    border-right-color: #A7247Aa1;
-	    border-bottom-color: #A7247Aa1;
-	    border-left-color: #A7247Aa1;
+	    border-top-color: #7365A7a1;
+	    border-right-color: #7365A7a1;
+	    border-bottom-color: #7365A7a1;
+	    border-left-color: #7365A7a1;
 	}
 
 	/* Cambios en el logo*/
