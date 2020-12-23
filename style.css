@@ -983,17 +983,17 @@
 /*---- coursetag_plusfactor3 ------*/
 	/*Cambio de colores*/
 	:root .coursetag_plusfactor3 {
-		--colorppal: #91278E;
+		--colorppal: #7365A7;
 	}
 	.coursetag_plusfactor3 .shortanswer-container textarea:focus, 
 	.coursetag_plusfactor3 .shortanswer-container input:focus, 
 	.coursetag_plusfactor3 .shortanswer-container .preview:focus
 	.coursetag_plusfactor3 .form-control:focus,
 	.coursetag_plusfactor3 .form-control:focus-within {
-	    border-top-color: #91278Ea1;
-	    border-right-color: #91278Ea1;
-	    border-bottom-color: #91278Ea1;
-	    border-left-color: #91278Ea1;
+	    border-top-color: #7365A7a1;
+	    border-right-color: #7365A7a1;
+	    border-bottom-color: #7365A7a1;
+	    border-left-color: #7365A7a1;
 	}
 
 	/* Cambios en el logo */
