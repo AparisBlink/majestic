@@ -1691,7 +1691,7 @@
 
 
 	/*Cambios portadilla*/
-	coursetag_horizontes3 #indice .unit-content .header {
+	.coursetag_horizontes3 #indice .unit-content .header {
 		background-image: url(imagenes/Portadilla_Horizontes_3.png) !important;
 	}
 /*-- coursetag_horizontes4 --*/
