@@ -1633,13 +1633,12 @@
 	    background-image: url(imagenes/Horizontes_1.png);
 	}
 
-	/*¡¡¡¡¡¡¡¡¡ FALTA IMAGEN !!!!!!! */
 	
 	/*Cambios portadilla*/
-	/*.coursetag_horizontes1 #indice .unit-content .header {
-		background: url(imagenes/Portadilla_Calculo_Diferencial.png) !important;
-	}*/
-	/* ¡¡¡¡¡¡¡¡¡¡¡¡¡ FALTA IMAGEN !!!!!!!!!!!!!!*/
+	.coursetag_horizontes1 #indice .unit-content .header {
+		background: url(imagenes/Portadilla_Horizontes_1.png) !important;
+	}
+	
 /*--*/
 
 /*-- coursetag_horizontes2 --*/
@@ -1690,14 +1689,11 @@
 	    background-image: url(imagenes/Horizontes_3.png);
 	}
 
-	/* ¡¡¡¡¡¡¡¡¡¡¡¡¡ FALTA IMAGEN !!!!!!!!!!!!!!!!!!!!!*/
-	/*Cambios portadilla*/
-	/*.coursetag_horizontes3 #indice .unit-content .header {
-		background-image: url(imagenes/Portadilla_Horizontes_2.png) !important;
-	}*/
-	/* ¡¡¡¡¡¡¡¡¡¡¡¡ FALTA IMAGEN !!!!!!!!!!!!!!!!!!!!!!*/
-/*--*/
 
+	/*Cambios portadilla*/
+	coursetag_horizontes3 #indice .unit-content .header {
+		background-image: url(imagenes/Portadilla_Horizontes_3.png) !important;
+	}
 /*-- coursetag_horizontes4 --*/
 	/*Cambio de colores*/
 	:root .coursetag_horizontes4 {
